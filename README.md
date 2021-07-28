@@ -15,22 +15,22 @@
 - We will be installing all the dependencies on our EC2 instance needed for our app to run. To install node, run these commands in your terminal.
 
  ```sh
-nvm install 8.12
-node -v
+# nvm install 8.12
+# node -v
 ``` 
 
 - Install pm2 to run your app in the background.
 ```sh
-sudo npm install pm2 -g
-sudo apt-get update
+# sudo npm install pm2 -g
+# sudo apt-get update
 ``` 
 - How to check anything is running on your server
 ```sh
-pm2 list
+# pm2 list
 ``` 
 - Delete/Stop running app from server
 ```sh
-pm2 delete appname
+# pm2 delete appname
 ``` 
 
 ## Run Node.js Application
@@ -39,11 +39,11 @@ pm2 delete appname
 - git clone the repo on your ubuntu server with "git clone"
 - go inside the project folder
 ```sh
-npm i
+# npm i
 ```
 - start the node.js server with pm2 
 ```sh
-pm2 start app.js
+# pm2 start app.js
 ```
 - Enjoy!
 
@@ -63,8 +63,8 @@ pm2 start app.js
 - Clone it on server
 - Go inside the application root folder
  ```sh
-npm i
-npm run build
-
-
+# npm i
+# npm run build
+# pm2 serve build/ 3008 --name "react-ott-final" --spa
 ```
+- Enjoy !
