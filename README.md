@@ -37,11 +37,11 @@ pm2 delete appname
 - push your code on github
 - git clone the repo on your ubuntu server with "git clone"
 - go inside the project folder
-- - ```sh
+- ```sh
 npm i
 ```
 -start the node.js server with pm2 
-- - ```sh
+- ```sh
 pm2 start app.js
 ```
 - Enjoy!
