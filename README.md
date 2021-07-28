@@ -1,6 +1,6 @@
 # Deploy a Full Stack Node.js & React Application on AWS with Nginx 
 
-##Requirements
+## Requirements
 
 - Ubuntu Server - ex. Putty
 - AWS pem key
