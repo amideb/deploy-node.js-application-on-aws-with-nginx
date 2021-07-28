@@ -20,16 +20,16 @@ node -v
 ``` 
 
 - Install pm2 to run your app in the background.
-- ```sh
+```sh
 sudo npm install pm2 -g
 sudo apt-get update
 ``` 
 - How to check anything is running on your server
--  ```sh
+```sh
 pm2 list
 ``` 
 - Delete/Stop running app from server
--  ```sh
+```sh
 pm2 delete appname
 ``` 
 
@@ -38,11 +38,11 @@ pm2 delete appname
 - push your code on github
 - git clone the repo on your ubuntu server with "git clone"
 - go inside the project folder
-- ```sh
+```sh
 npm i
 ```
 -start the node.js server with pm2 
-- ```sh
+```sh
 pm2 start app.js
 ```
 - Enjoy!
@@ -51,7 +51,7 @@ pm2 start app.js
 ## Run React.js Application
 
 - Go inside your react app's package.json and add a port inside the start script
-- ```sh
+```sh
 "scripts": {
     "start": "PORT=3008 react-scripts start",
     "build": "react-scripts build",
@@ -62,7 +62,7 @@ pm2 start app.js
 - Now push your code on github
 - Clone it on server
 - Go inside the application root folder
-- - ```sh
+ ```sh
 npm i
 npm run build
 
