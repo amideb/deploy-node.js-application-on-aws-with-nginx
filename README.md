@@ -13,7 +13,7 @@
 ## Setup Ubuntu Server
 
 - We will be installing all the dependencies on our EC2 instance needed for our app to run. To install node, run these commands in your terminal.
--```sh
+- ```sh
 nvm install 8.12
 node -v
 ``` 
