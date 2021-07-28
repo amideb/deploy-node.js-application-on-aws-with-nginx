@@ -41,7 +41,7 @@ pm2 delete appname
 ```sh
 npm i
 ```
--start the node.js server with pm2 
+- start the node.js server with pm2 
 ```sh
 pm2 start app.js
 ```
